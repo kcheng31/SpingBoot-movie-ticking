@@ -1,27 +1,49 @@
-基于SpringBoot的前后端分离的电影购票系统
+A movie ticketing system based on SpringBoot's front-end and back-end separation
 
-#### 介绍
-SpringBoot+SpringSecurity+MyBatis-Plus 框架的前后端电影项目，前端使用vue+element ui，后端SpringBoot。
-前台主要有根据类型和地区进行电影的筛选、电影的搜索、热门榜单、活动的发布、留言的发布、电影的购票、电影的在线选座位、我的购物车、我的订单等功能。
-后台主要有影片的增删查改、电影的拍片、海报的管理、用户和员工的管理等等功能。
+introduce
+The front-end and back-end movie projects of the SpringBoot+SpringSecurity+MyBatis-Plus framework, the front-end uses vue+element ui, and the back-end SpringBoot. The front desk mainly includes functions such as screening movies according to genres and regions, searching for movies, popular lists, publishing events, posting messages, purchasing movie tickets, selecting seats online for movies, my shopping cart, and my order. The background mainly includes the functions of adding, deleting, checking and modifying films, filming of films, management of posters, management of users and employees, etc.
 
-#### 演示视频
-#### [基于SpringBoot的前后端分离的电影购票系统](https://www.bilibili.com/video/BV1fA411579h)
+demo video
+A movie ticketing system based on SpringBoot's front-end and back-end separation
+Software Architecture
+Front-end and back-end separation projects
+about
+The api directory is the Spring boot project code
+The vue-admin directory is the website management background code
+The front-end code of the website is in the vue-app directory
+The vue-worker directory is the website customer service code
 
-#### 软件架构
-前后端分离项目
 
-####  数据库
+A. The project is hosted on Github, and the account of the hoster is XXXXX and XXXX. If you need to get access to the whole project, you can log in with my account.
 
-#### 关注公众号`理木客` 后台回复：`movie` ，即可获取数据库文件。
+B. The basic programming language is Java 11. It is used for back-end programming. Meanwhile, the back-end frame is Springboot.
 
-#### 项目讲解视频
+C. For the Front-end programming, the languages ​​are HTML & CSS and Javascript. The front-end frame is Vue.
 
-#### [讲解视频是对项目的目录、各个文件的作用，接口的作用进行讲解，非常适合了解、学习这个项目。整个讲解视频45分钟。](https://mp.weixin.qq.com/s/ObCmSkes7IGOs9RYxMtdCg)
 
-#### 关于
 
-- api 目录下为Spring boot项目代码
-- vue-admin 目录下为网站管理后台代码
-- vue-app 目录下为网站前台代码
-- vue-worker 目录下为网站客服代码
+The diagram below represents versions of language and frameworks:
+
+Java 11
+IntelliJ IDEA 2021.3.3
+Navicat Premium 15.0.28
+Apache-maven 3.8.5
+Swagger 2.9.2
+Jwt 0.9.1
+mybatis-plus 3.4.2
+fastjson 1.2.73
+Springboot 2.4.2
+Vue 2.6.11
+axios 0.21.1
+element-ui 2.15.0
+vur-router 3.2.0
+Node.js 14.17.0
+The database is Mysql 8.0.28. There are 17 tables that have been created. Meanwhile, the main key and foreign are both defined. The relationships between these tables are clearly defined.
+This project is a Web application, so it should be run on browsers, such as Chrome, Firefox, Microsoft Edge, etc. Chrome is highly recommended.
+So far, this project is just on iteration 1, so there is no payment for this project.
+In Vue-admin file, you need to follow these steps:
+
+npm install
+npm run serve
+npm run build
+After running the second step, the URL will be shown. Clicking the URL to jump to the website.
