@@ -2,9 +2,9 @@
     <div class="login">
         <div class="login-form">
             <div class="login-form-header">
-                <img style="width: 75px; height: 75px;float: left;padding-right: 30px;" src="../assets/img/logo.png"
+                <img style="width: 75px; height: 75px;float: left;padding-right: 30px;" src="../assets/img/logo2.jpg"
                      alt=""/>
-                <div class="login-form-text">小小影院 - 后台管理</div>
+                <div class="login-form-text">纳德影院 - 后台管理</div>
             </div>
             <div style="color: #91949c;font-weight: bolder">
 
@@ -55,7 +55,7 @@
             <div class="login-form-footer">
                 <div style="font-weight: bolder;font-size: 16px;color: #91949c;"
                      :underline="false">
-                    Copyright 2021 小小影院 - 后台管理
+                    Copyright 2022 纳德影院 - 后台管理
                 </div>
             </div>
         </div>

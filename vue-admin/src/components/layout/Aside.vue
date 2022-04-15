@@ -1,7 +1,7 @@
 <template>
   <div class="aside">
     <div class="aside-header" style="padding-top: 30px">
-      <img style="width: 40px; height: 40px;float: left" src="../../assets/img/logo.png" alt=""/>
+      <img style="width: 60px; height: 60px;float: left" src="../../assets/img/logo2.jpg" alt=""/>
       <div style="padding-left: 15px;padding-top: 8px;float: left">后台管理</div>
     </div>
     <div>
